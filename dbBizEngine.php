@@ -1,6 +1,6 @@
-<? php
+<?php
 
-  function dbConnection($dbName) {
+function dbConnection($dbName) {
   return mysqli_connect("localhost", "devDB", [md5String], $dbName);
 }
 
